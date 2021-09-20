@@ -8,7 +8,7 @@ import { registerUser, registerError } from "../../actions/register";
 import { loginUser } from "../../actions/user";
 import Login from "../login";
 import signupImg from "../../images/signupImg.svg";
-import s from './Register.module.scss';
+// import s from './Register.module.scss';
 
 import img1 from "../../images/Vector-1.svg";
 import img2 from "../../images/Vector-2.svg";
@@ -107,7 +107,7 @@ class Register extends React.Component {
           className="widget-auth my-auto"
           title={
             <h3 className="mt-0 mb-2" style={{ fontSize: 40 }}>
-              Sing up
+              Sign up
             </h3>
           }
         >
@@ -162,7 +162,7 @@ class Register extends React.Component {
               size="sm"
               onClick={(e) => this.doRegister(e)}
             >
-              {this.props.isFetching ? "Loading..." : "Singup"}
+              {this.props.isFetching ? "Loading..." : "Sign up"}
             </Button>
             <p className="widget-auth-info text-center mb-0">Or</p>
             <div className={"d-flex mb-4 mt-3"}>
@@ -186,7 +186,7 @@ class Register extends React.Component {
                 Login here
               </Link>
             </div>
-            <footer className={s.footer}>{new Date().getFullYear()} © One React - React Admin Dashboard Template Made by &nbsp;<a href="https://flatlogic.com" rel="noopener noreferrer" target="_blank">Flatlogic LLC</a></footer>
+            {/* <footer className={s.footer}>{new Date().getFullYear()} © One React - React Admin Dashboard Template Made by &nbsp;<a href="https://flatlogic.com" rel="noopener noreferrer" target="_blank">Flatlogic LLC</a></footer> */}
           </form>
         </Widget>
         <img

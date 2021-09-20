@@ -12,12 +12,12 @@ import { logoutUser } from "../../actions/user";
 
 import lightDashboardIcon from "../../images/light-dashboard.svg";
 import darkDashboardIcon from "../../images/dark-dashboard.svg";
-import lightTables from "../../images/tables.svg";
-import darkTables from "../../images/tables-dark.svg";
-import lightUI from "../../images/ui-elements.svg";
-import darkUI from "../../images/ui-elements-dark.svg";
-import lightTypography from "../../images/Typography.svg";
-import darkTypography from "../../images/Typography-dark.svg";
+// import lightTables from "../../images/tables.svg";
+// import darkTables from "../../images/tables-dark.svg";
+// import lightUI from "../../images/ui-elements.svg";
+// import darkUI from "../../images/ui-elements-dark.svg";
+// import lightTypography from "../../images/Typography.svg";
+// import darkTypography from "../../images/Typography-dark.svg";
 import logo from "../../images/logo.svg";
 import settingsIcon from "../../images/settings.svg";
 import logoutIcon from "../../images/logout.svg";
@@ -60,7 +60,7 @@ class Sidebar extends React.Component {
         <nav className={s.root}>
           <header className={s.logo}>
             <img src={logo} alt="logo" className={s.logoStyle} />
-            <span>Flatlogic&nbsp;</span> One
+            <span>Code&nbsp;</span> Differenltly
           </header>
           <h5 className={s.navTitle}>APP</h5>
           <ul className={s.nav}>
@@ -91,7 +91,7 @@ class Sidebar extends React.Component {
               )}
             </LinksGroup>
           </ul>
-          <h5 className={s.navTitle}>TEMPLATE</h5>
+          {/* <h5 className={s.navTitle}>TEMPLATE</h5>
           <ul className={s.nav}>
             <LinksGroup
               onActiveSidebarItemChange={activeItem =>
@@ -190,7 +190,7 @@ class Sidebar extends React.Component {
                 />
               )}
             </LinksGroup>
-          </ul>
+          </ul> */}
           <ul className={s.downNav}>
             <hr />
             <LinksGroup

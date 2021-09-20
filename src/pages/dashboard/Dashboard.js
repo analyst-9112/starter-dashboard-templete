@@ -389,12 +389,16 @@ class Dashboard extends React.Component {
         <Row>
           <Col xl={4}>
             <Widget
-              title={<p style={{ fontWeight: 700 }}>Average Order Value</p>}
+              title={<p style={{ fontWeight: 700 }}>What High School Do You Attend?</p>}
               customDropDown
             >
-              <Row className={`justify-content-between mt-3`} noGutters>
+                
+
+                <img src="chart.svg" alt="" width="100%" height="100%"/>
+
+              {/* <Row className={`justify-content-between mt-3`} noGutters>
                 <Col sm={8} className={"d-flex align-items-center"}>
-                  <h3 className={"fw-semi-bold mb-0"}>872 410 $</h3>
+                  <h3 className={"fw-semi-bold mb-0"}>$872,410</h3>
                 </Col>
                 <Col
                   sm={4}
@@ -414,7 +418,7 @@ class Dashboard extends React.Component {
                     type={"bar"}
                   />
                 </Col>
-              </Row>
+              </Row> */}
             </Widget>
           </Col>
           <Col xl={4}>
