@@ -768,7 +768,7 @@ class Dashboard extends React.Component {
                     </td>
                     <td className={"pl-0 fw-thin"}>
                       <img src={p1} alt="" className={"mr-3"} />
-                      Kate Claus
+                      Stephanie Eldridge
                     </td>
                     <td className={"pl-0 fw-thin"}>10 Jan 2020</td>
                     <td className={"pl-0 fw-normal"}>$8400</td>
@@ -784,7 +784,7 @@ class Dashboard extends React.Component {
                     </td>
                     <td className={"pl-0 fw-thin"}>
                       <img src={p2} alt="" className={"mr-3"} />
-                      Maria Gordon
+                      Celita Cherry
                     </td>
                     <td className={"pl-0 fw-thin"}>08 Jan 2020</td>
                     <td className={"pl-0 fw-normal"}>$8400</td>
@@ -800,7 +800,7 @@ class Dashboard extends React.Component {
                     </td>
                     <td className={"pl-0 fw-thin"}>
                       <img src={p3} alt="" className={"mr-3"} />
-                      Nick Peru
+                      Tariq Hook
                     </td>
                     <td className={"pl-0 fw-thin"}>05 Jan 2020</td>
                     <td className={"pl-0 fw-normal"}>$1300</td>

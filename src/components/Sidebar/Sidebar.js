@@ -60,7 +60,7 @@ class Sidebar extends React.Component {
         <nav className={s.root}>
           <header className={s.logo}>
             <img src={logo} alt="logo" className={s.logoStyle} />
-            <span>Code&nbsp;</span> Differenltly
+            <span>Code&nbsp;</span> Differently
           </header>
           <h5 className={s.navTitle}>APP</h5>
           <ul className={s.nav}>
